@@ -29,13 +29,13 @@ It allows access to a service, a directive and a pipe to handle any dynamic or s
 
 ## Technologies
 
-* [Ionic framework v4](https://ionicframework.com/)
+* [Ionic framework v5.7.0](https://ionicframework.com/)
 
-* [Angular CLI v7.3.8](https://github.com/angular/angular-cli)
+* [Angular CLI v8.0.1](https://github.com/angular/angular-cli)
 
-* [Angular framework v7.2.2](https://angular.io/)
+* [Angular framework v8.0.0](https://angular.io/)
 
-* [ngx translate/core (i18n) library v11.x+](http://www.ngx-translate.com)
+* [ngx translate/core (i18n) library v11.0.1](http://www.ngx-translate.com)
 
 * [Angular Augery Chrome Extension v1.2.11](https://augury.rangle.io/) useful for debugging.
 
@@ -80,4 +80,4 @@ setInitialAppLanguage() {
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
