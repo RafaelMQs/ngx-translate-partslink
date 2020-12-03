@@ -1,12 +1,12 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
-import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { IonicModule } from "@ionic/angular";
+import { FormsModule } from "@angular/forms";
+import { RouterModule } from "@angular/router";
 
-import { TranslateModule } from '@ngx-translate/core';
+import { TranslateModule } from "@ngx-translate/core";
 
-import { HomePage } from './home.page';
+import { HomePage } from "./home.page";
 
 @NgModule({
 	imports: [
@@ -15,12 +15,12 @@ import { HomePage } from './home.page';
 		IonicModule,
 		RouterModule.forChild([
 			{
-				path: '',
-				component: HomePage
-			}
+				path: "",
+				component: HomePage,
+			},
 		]),
-		TranslateModule
+		TranslateModule,
 	],
-	declarations: [HomePage]
+	declarations: [HomePage],
 })
 export class HomePageModule {}

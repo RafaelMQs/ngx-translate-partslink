@@ -1,49 +1,49 @@
-# Ionic Angular Localiser
+# :zap: Ionic Angular Localiser
 
-This project uses [ngx translate, the internationalisation (i18n) library for Angular](http://www.ngx-translate.com) to change the content of the home page and alert button to the language chosen.
+* This project uses [ngx translate, the internationalisation (i18n) library for Angular](http://www.ngx-translate.com) to change the content of the home page and alert button to the language chosen.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Ionic Angular Localiser](#zap-ionic-angular-localiser)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
-"The [ngx-translate, the internationalisation (i18n) library for Angular](http://www.ngx-translate.com) lets you define translations for your content in different languages and switch between them easily. Check out the demo on StackBlitz.
+* "The [ngx-translate, the internationalisation (i18n) library for Angular](http://www.ngx-translate.com) lets you define translations for your content in different languages and switch between them easily.
+* It allows access to a service, a directive and a pipe to handle any dynamic or static content. The main part of the library is the 'core'. A loader was added to load translations into the app.
 
-It allows access to a service, a directive and a pipe to handle any dynamic or static content. The main part of the library the 'core'. A loader was added to load translations into the app.
-
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/english.png)
 ![Example screenshot](./img/french.png)
 ![Example screenshot](./img/spanish.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Ionic framework v5.7.0](https://ionicframework.com/)
+* [Ionic framework v5](https://ionicframework.com/)
+* [Angular CLI v11](https://github.com/angular/angular-cli)
+* [Angular framework v11](https://angular.io/)
+* [ngx translate/core (i18n) library v13](http://www.ngx-translate.com)
+* [Angular Augery Chrome Extension v1](https://augury.rangle.io/) useful for debugging.
 
-* [Angular CLI v8.0.1](https://github.com/angular/angular-cli)
+## :floppy_disk: Setup
 
-* [Angular framework v8.0.0](https://angular.io/)
-
-* [ngx translate/core (i18n) library v11.0.1](http://www.ngx-translate.com)
-
-* [Angular Augery Chrome Extension v1.2.11](https://augury.rangle.io/) useful for debugging.
-
-## Setup
-
+* Run `npm i` to install dependencies
+* Run `ng lint` to lint files - all files currently pass linting.
 * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code Examples
+## :computer: Code Examples
 
 * `language.service.ts` function to set app language using option selected by user.
 
@@ -64,20 +64,19 @@ setInitialAppLanguage() {
 
 ```
 
-## Features
+## :cool: Features
 
-* Select a language from the drop-down list and the language of headers, buttons, text alerts alerts (as set up in the `/assets/i18n/json` files will change.
+* Select a language from the drop-down list and the language of headers, buttons, text alerts (as set up in the `/assets/i18n/json` files will change.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
-* Status: Working app that shows off the [ngx-translate, the internationalisation (i18n) library for angular](http://www.ngx-translate.com) module.
+* Status: Working
+* To-Do: Nothing
 
-* To-Do: add functionality. Use in another app to provide language translation.
-
-## Inspiration
+## :clap: Inspiration
 
 * [Ionic Academy: How to Localise Your Ionic App with ngx-translate](https://ionicacademy.com/localise-ionic-ngx-translate/).
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
