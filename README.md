@@ -1,8 +1,12 @@
 # :zap: Ionic Angular Localiser
 
 * This project uses [ngx translate, the internationalisation (i18n) library for Angular](http://www.ngx-translate.com) to change the content of the home page and alert button to the language chosen.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-localiser?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-angular-localiser?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-angular-localiser?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-angular-localiser?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -32,8 +36,7 @@
 ## :signal_strength: Technologies
 
 * [Ionic framework v5](https://ionicframework.com/)
-* [Angular CLI v11](https://github.com/angular/angular-cli)
-* [Angular framework v11](https://angular.io/)
+* [Angular framework v12](https://angular.io/)
 * [ngx translate/core (i18n) library v13](http://www.ngx-translate.com)
 * [Angular Augery Chrome Extension v1](https://augury.rangle.io/) useful for debugging.
 
@@ -61,7 +64,6 @@ setInitialAppLanguage() {
     }
   });
 }
-
 ```
 
 ## :cool: Features
@@ -70,7 +72,7 @@ setInitialAppLanguage() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working
+* Status: Working. Updated may 2021
 * To-Do: Nothing
 
 ## :clap: Inspiration
