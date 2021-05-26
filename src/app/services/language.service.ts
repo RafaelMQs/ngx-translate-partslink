@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { TranslateService } from "@ngx-translate/core";
-import { Storage } from "@ionic/storage";
+import { Storage } from "@ionic/storage-angular";
 
 const LNG_KEY = "SELECTED_LANGUAGE";
 
@@ -14,11 +14,14 @@ export class LanguageService {
 
 	// sets default language as browser language if no other language choice made
 	// if language language selected then this value is stored using the ionic storage module
-	setInitialAppLanguage() {
+	async setInitialAppLanguage() {
 		const language = this.translate.getBrowserLang();
 		this.translate.setDefaultLang(language);
 
-		this.storage.get(LNG_KEY).then((val) => {
+    // initialise storage
+    await this.storage.create();
+    
+		this.storage.get(LNG_KEY).then((val: string) => {
 			if (val) {
 				this.setLanguage(val);
 				this.selected = val;
@@ -26,7 +29,7 @@ export class LanguageService {
 		});
 	}
 
-	getLanguages() {
+	getLanguages(): Array<{}> {
 		return [
 			{ text: "English", value: "en", img: "assets/imgs/en.png" },
 			{ text: "French", value: "fr", img: "assets/imgs/fr.png" },
@@ -35,7 +38,7 @@ export class LanguageService {
 	}
 
 	// lng can be 'en', 'fr' or 'sp'
-	setLanguage(lng) {
+	setLanguage(lng: string) {
 		this.translate.use(lng);
 		this.selected = lng;
 		this.storage.set(LNG_KEY, lng);

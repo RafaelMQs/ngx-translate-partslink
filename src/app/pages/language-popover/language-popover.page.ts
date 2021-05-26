@@ -21,7 +21,7 @@ export class LanguagePopoverPage implements OnInit {
 		this.selected = this.languageService.selected;
 	}
 
-	select(lng) {
+	select(lng: string) {
 		this.languageService.setLanguage(lng);
 		this.popoverCtrl.dismiss();
 	}
