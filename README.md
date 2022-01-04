@@ -36,8 +36,8 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic framework v5](https://ionicframework.com/)
-* [Angular framework v12](https://angular.io/)
+* [Ionic framework v6](https://ionicframework.com/)
+* [Angular framework v13](https://angular.io/)
 * [ngx translate/core (i18n) library v13](http://www.ngx-translate.com)
 * [Angular Augery Chrome Extension v1](https://augury.rangle.io/) useful for debugging.
 
@@ -73,7 +73,7 @@ setInitialAppLanguage() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Updated may 2021
+* Status: Working
 * To-Do: Nothing
 
 ## :clap: Inspiration
