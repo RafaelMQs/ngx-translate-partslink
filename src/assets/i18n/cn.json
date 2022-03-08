@@ -1,0 +1,12 @@
+{
+    "HOME": {
+        "title": "家",
+        "greeting": "嘿 {{name}}! 歡迎來到離子學院！",
+        "withcode": "<br><br>你是史詩 <b>你是史詩</b>!",
+        "btn": "顯示警報"
+    },
+    "ALERT": {
+        "header": "錯誤",
+        "msg": "您的操作有問題"
+    }
+}

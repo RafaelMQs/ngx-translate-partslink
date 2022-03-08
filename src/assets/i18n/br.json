@@ -1,0 +1,12 @@
+{
+    "HOME": {
+        "title": "Inicio",
+        "greeting": "Olá {{name}}! Bem vindo a Academia Ionic!",
+        "withcode": "<br><br>Você é <b>épico</b>!",
+        "btn": "Mostrar Alerta"
+    },
+    "ALERT": {
+        "header": "Erro",
+        "msg": "Talvez tenha problema com o componente"
+    }
+}

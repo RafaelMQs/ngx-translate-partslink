@@ -34,6 +34,12 @@ export class LanguageService {
 			{ text: "English", value: "en", img: "assets/imgs/en.png" },
 			{ text: "French", value: "fr", img: "assets/imgs/fr.png" },
 			{ text: "Spanish", value: "sp", img: "assets/imgs/sp.png" },
+			{ text: "Portuguese", value: "br", img: "assets/imgs/br.png" },
+			{ text: "Chinesse", value: "cn", img: "assets/imgs/china.png" },
+			{ text: "Arabian", value: "ar", img: "assets/imgs/united-arab-emirates.png" },
+			{ text: "Greko", value: "el", img: "assets/imgs/grecia.png" },
+			{ text: "Japanesse", value: "ja", img: "assets/imgs/japan.png" },
+			{ text: "Korea", value: "ko", img: "assets/imgs/south-korea.png" },
 		];
 	}
 
